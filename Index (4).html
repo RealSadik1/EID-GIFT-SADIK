@@ -1,0 +1,18 @@
+<h3 class="glow">তোমার নাম লিখো ✨</h3>
+<input id="name" placeholder="তোমার নাম..." autocomplete="off">
+<button onclick="start()">✨ শুরু করো</button>
+const shayaris = [
+    `আকাশে উঠেছে ঈদের চাঁদ, ${name}-এর জীবনে না থাকুক কোনো অবসাদ! ✨`,
+    `মেঘলা আকাশ মেঘলা দিন, ${name}, আজ কিন্তু খুশির ঈদের দিন! 🌙`,
+    `রঙিন স্বপ্ন রঙিন আলো, ${name}-এর ঈদ কাটুক অনেক অনেক ভালো! 🕌`
+];
+typeText(msg2, `এই পবিত্র দিনে আল্লাহ তোমার সব দোয়া কবুল করুন, তোমার জীবন ভরে উঠুক রহমতে। সব সময় হাসিখুশি থাকো। এই ঈদে আল্লাহ তোমার পরিবারকে সুস্থতা, শান্তি আর ভালোবাসায় ভরে দিন। ঈদ মোবারক।🌙💫`, 'btn2');
+<h3 class="glow">আগে কোলাকুলি হয়ে যাক! ✨</h3>
+<p class="kolakuli-text">ইমোজিতে <span id="tapCount" style="font-weight:bold; font-size:24px;">২</span> বার ট্যাপ করো</p>
+<div id="hugArea" class="hug-btn" onclick="handleKolaKuli()">🫂</div>
+<h1 class="finalText"><br> তোমাকে পবিত্র ঈদুল ফিতরের শুভেচ্ছা 🕌</h1>
+
+<div id="salamiDisplay" class="salami-box">
+  <div id="salamiText" class="salami-text-content"></div>
+  <canvas id="scratchCanvas"></canvas>
+</div>document.getElementById("salamiText").innerHTML = `💌 ৳${receivedSalami} সালামি! 🎉`;
